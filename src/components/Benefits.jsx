@@ -15,7 +15,7 @@ const Benefits = () => {
             />
             <div className='flex flex-wrap gap-10 mb-10 items-center justify-center'>
                 {benefits.map((item) => (
-                    <div className='block relative border p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] rounded-2xl border-2 border-transparent bg-gradient-to-r from-purple-500 to-green-500'
+                    <div className='block relative border p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[20rem] rounded-2xl border-2 border-transparent bg-gradient-to-r from-purple-300 to-green-300'
                      key={item.id}>
                         <div className='relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none rounded-lg bg-black'>
                             <h5 className='h5 mb-5'>{item.title}</h5>
